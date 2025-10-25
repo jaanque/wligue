@@ -1,0 +1,54 @@
+.resources-section {
+  padding: 4rem 2rem;
+  background-color: #1a1a1a;
+}
+
+.resources-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resource-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.resource-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.resource-description {
+  font-size: 1rem;
+  color: #a0a0a0;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.resource-link {
+  color: #ff6c37;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
