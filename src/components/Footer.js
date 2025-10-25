@@ -1,20 +1,16 @@
 import React from 'react';
 import './Footer.css';
 
-import xLogo from '../assets/x-logo.svg';
 import linkedinLogo from '../assets/linkedin-logo.svg';
 import githubLogo from '../assets/github-logo.svg';
 import youtubeLogo from '../assets/youtube-logo.svg';
 import instagramLogo from '../assets/instagram-logo.svg';
-import discordLogo from '../assets/discord-logo.svg';
 
 const socialLinks = [
-  { src: xLogo, alt: 'X' },
   { src: linkedinLogo, alt: 'LinkedIn' },
   { src: githubLogo, alt: 'GitHub' },
   { src: youtubeLogo, alt: 'YouTube' },
   { src: instagramLogo, alt: 'Instagram' },
-  { src: discordLogo, alt: 'Discord' },
 ];
 
 const footerLinks = {
